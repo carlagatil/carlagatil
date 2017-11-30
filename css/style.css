@@ -1,0 +1,147 @@
+/* main page */ 
+body{
+	background-color: rgba(0,0,0,.8);
+	font-family: courier;
+	cursor: default;
+}
+.navvy{
+	height: 50px;
+	
+}
+.navtext{
+	font-family: century gothic;
+	color: indianred !important;
+	font-size: 14px;
+	margin-bottom: -5px;
+
+}
+#navbar{
+	margin-left:400px;
+	margin-right: 70px;
+	padding: 0px;
+
+}
+
+.navtext:hover{
+	transition: .7s;
+	color: whitesmoke !important;
+	border-radius: 15px;
+
+}
+.img-responsive-s {
+	background-image: url('img/27.jpg');
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-attachment: fixed;
+}
+/* index page */ 
+.indexbody {
+	background: rgba(0,0,0,.8);
+}
+.indexpink{
+	width: 1300px;
+	height: 380px;
+	text-align: center;
+	background: linear-gradient(-90deg, black,indianred,  indianred,indianred,black);
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 100px;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.indexpink img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 2px solid gray;
+	margin-top: -60px;
+	margin-bottom: 30px;
+	box-shadow: 0 5px 15px 8px rgba(19, 35, 47, 0.4);
+}
+#name:hover {
+	transition: .5s;
+	border-color: indianred;
+	box-shadow: 0 5px 15px 8px rgba(255, 255, 255, 1);
+}
+
+.indexbtn {
+	background-color: transparent;
+	margin-top: 20px;
+
+}
+.indexbtn:hover {
+	background-color: white;
+	color: black;
+}
+.fbicon {
+	-webkit-transition: all 0.7s ease; transition: all 0.7s ease;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+	margin: 8px 10px 0px 70px;
+}
+.fbicon:hover{
+	transition: .2s;
+	-webkit-transform:scale(1.2); transform:scale(1.2);
+	
+}
+.igicon{
+	-webkit-transition: all 0.7s ease; transition: all 0.7s ease;
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+	margin-top: 1px;
+
+}
+.igicon:hover{
+	transition: .2s;
+	-webkit-transform:scale(1.2); transform:scale(1.2);
+}
+
+
+
+#myCarousel{
+	margin-top: 50px;
+
+
+	
+}
+.item{
+	height: 600px;
+}
+
+.bod{
+	background-color: white;
+}
+
+/* content */
+
+#content{
+	margin-top: 20px;
+}
+#name{
+	margin: 0px 10px 0px 10px;
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 7px;
+	font-weight: 600;
+
+}
+.info{
+	margin: 0px 10px 0px 10px;
+	padding: 10px 55px 10px 55px;
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 7px;
+	font-weight: 600;
+}
+.jumbotron{
+	padding: 10px 20px 10px 20px;
+	border-radius: 7px;
+	margin:10px;
+}
+
+.tnto:hover {
+	box-shadow: 0 5px 15px 8px rgba(19, 35, 47, 0.4);
+	border-color: indianred;
+}
