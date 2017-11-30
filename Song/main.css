@@ -1,0 +1,81 @@
+body {
+	background-image:url("disk.jpg");
+	background-attachment:fixed;
+	font-family:courier;
+	margin:0px;
+	background-repeat:no-repeat;
+	background-size:100%;
+	
+}
+
+#head1 {
+	background:rgba(38,38,38,.7);
+	border: 2px outset white;
+	border-radius:5px;
+	width:50%;
+	padding-top:0px;
+	margin-top:0px;
+	
+}
+h2{
+	margin:0px;
+	padding:0px;
+}
+
+h4{
+	
+	padding-top:0px;
+	margin-top:3px;
+}
+
+p {
+	margin:0px;
+	padding-bottom:20px;
+}
+
+.row {
+	background:rgba(38,38,38,.7);
+	border:1px outset white;
+	color:white;
+	padding:3px;
+	margin:0%;
+	border-radius:10px;
+}
+
+#special{
+	background-color:gray;
+	border: 2px outset white;
+	border-radius:5px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+#specialdin{
+	background-color:gray;
+	border: 2px outset white;
+	border-radius: 5px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+#specialdinto{
+	background-color:gray;
+	border: 2px outset white;
+	border-radius: 5px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+#aid {
+	color:white;
+	
+}
+
+#body{
+	background:rgba(38,38,38,.7);
+	border: 1px solid gray;
+	border-radius:15px;
+	width:50%;
+	height:100%;
+}
+
+
